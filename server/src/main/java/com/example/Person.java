@@ -5,15 +5,18 @@ package com.example;
  */
 public class Person {
 
-  /**
-   * This is a constructor.
-   */
-  public Person() {
+	/**
+	 * This is a constructor.
+	 */
+	public Person() {
 
-  }
+	}
 
-  //TODO: Add javadoc comment
-  public String person(String someone) {
-    return String.format("Hello, %s!", someone);
-  }
+	/**
+	 * @param someone String
+	 * @return String
+	 */
+	public String person(String someone) {
+		return String.format("Hello, %s!", someone);
+	}
 }
